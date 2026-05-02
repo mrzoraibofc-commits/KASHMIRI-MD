@@ -1,0 +1,21 @@
+{
+  "name": "KASHMIRI-MD",
+  "description": "KASHMIRI-MD WhatsApp bot made by Zoraib official",
+  "logo": "https://n.uguu.se/BlGoHUJU.jpg",
+  "keywords": ["bot","KASHMIRI-MD","ZORAIB-MD"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+        "description": "Put the KASHMIRI-MD session-id here.",
+        "required": true
+    }
+},
+
+"buildpacks": [
+    {
+        "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+],
+"stack": "heroku-24"
+}
