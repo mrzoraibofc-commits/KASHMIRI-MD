@@ -4,17 +4,15 @@
   "description": "KASHMIRI-MD WhatsApp bot created by Zoraib Official",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name KASHMIRI-MD",
-    "stop": "pm2 stop KASHMIRI-MD",
-    "restart": "pm2 restart KASHMIRI-MD"
+    "start": "node index.js"
   },
   "dependencies": {
     "@dark-yasiya/news-scrap": "latest",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@sl-code-lords/movie-api": "latest",
     "@whiskeysockets/baileys": "v7.0.0-rc.9",
-    "fflate" : "latest",
-    "figlet" : "latest",
+    "fflate": "latest",
+    "figlet": "latest",
     "adm-zip": "latest",
     "api-dylux": "latest",
     "axios": "latest",
@@ -35,7 +33,6 @@
     "node-fetch": "latest",
     "pdfkit": "latest",
     "pino": "latest",
-    "pm2": "^6.0.14",
     "qrcode-terminal": "latest",
     "ruhend-scraper": "latest",
     "wa-sticker-formatter": "latest",
@@ -44,5 +41,3 @@
     "yt-search": "latest"
   }
 }
-
-
