@@ -1,21 +1,18 @@
 {
-  "name": "KASHMIRI-MD",
-  "description": "KASHMIRI-MD WhatsApp bot made by Zoraib official",
-  "logo": "https://n.uguu.se/BlGoHUJU.jpg",
-  "keywords": ["bot","KASHMIRI-MD","ZORAIB-MD"],
-  "success_url": "/",
-
-  "env": {
-    "SESSION_ID": {
-        "description": "Put the KASHMIRI-MD session-id here.",
-        "required": true
+  "name": "♥️KASHMIRI-MINI PAIR QR♥️",
+  "description": "SESSION ID GENERATOR FOR WHATSAPP BOTS",
+  "logo": "https://res.cloudinary.com/di2a9lenz/image/upload/v1777634329/omegatech_media/d7riz8sz6yq3avzq7vaf.jpg",
+  "repository": "https://github.com/mrzoraibofc",
+  "keywords": ["@BiLaLTeCh05"],
+  "success_url": "/", 
+  "buildpacks": [
+    { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" }
+  ],
+  "env": {      
+    "MESSAGE": {
+      "description": "Msg Attached With Session ID",
+      "value": "🔰 BY || Zoraib Kashmiri🔰",
+      "required": false 
     }
-},
-
-"buildpacks": [
-    {
-        "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
-    }
-],
-"stack": "heroku-24"
+  }
 }
