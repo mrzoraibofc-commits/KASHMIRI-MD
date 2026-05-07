@@ -1,0 +1,38 @@
+{
+  "name": "KASHMIRI-MD",
+  "version": "5.0.0",
+  "description": "A WhatsApp Bot Created By Zoraib Kashmiri",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "pm2": "pm2 start index.js --name KASHMIRI-MD",
+    "stop": "pm2 stop KASHMIRI-MD",
+    "restart": "pm2 restart KASHMIRI-MD"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "7.0.0-rc.6",
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@vitalets/google-translate-api": "^9.2.0",
+    "pino": "^7.0.5",
+    "dotenv": "^16.4.5",
+    "pm2": "^6.0.5",
+    "express": "latest",
+    "moment-timezone": "^0.5.45",
+    "axios": "^1.2.5",
+    "fs-extra": "^11.1.0",
+    "file-type": "^16.5.3",
+    "fluent-ffmpeg": "^2.1.2",
+    "form-data": "^4.0.0",
+    "google-tts-api": "^2.0.2",
+    "node-fetch": "^2.6.1",
+    "megajs": "^1.1.0",
+    "wa-sticker-formatter": "^4.4.4",
+    "adm-zip": "^0.5.16",
+    "cheerio": "^1.0.0-rc.12",
+    "qrcode-terminal": "^0.12.0",
+    "yt-search": "2.11.1",
+    "sequelize": "^6.37.5",
+    "sqlite3": "^5.1.7"
+  }
+}
